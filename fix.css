@@ -1,0 +1,118 @@
+/* Đặt lại các giá trị mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Màu chủ đạo */
+:root {
+  --purple-dark: #2d1b69;
+  --purple-light: #4c2fab;
+  --orange: #ffb100;
+  --bg-light: #f9fafc;
+  --text-dark: #2d2f33;
+}
+
+/* Tổng thể trang */
+body {
+  display: flex;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* PHẦN BÊN TRÁI: MENU SIDEBAR */
+.sidebar {
+  position: fixed; /* Giữ cố định khi cuộn trang */
+  top: 0; /* Cách đỉnh 0px */
+  left: 0; /* Dính vào cạnh trái */
+  width: 220px;
+  height: 100vh; /* Chiều cao toàn màn hình */
+  background-color: var(--purple-dark);
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.sidebar button {
+  background: transparent;
+  color: #e2e8f0;
+  border: none;
+  font-size: 15px;
+  text-align: left;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar button:hover {
+  background-color: var(--orange);
+  color: var(--purple-dark);
+  font-weight: 600;
+  transform: translateX(5px);
+}
+
+/* PHẦN NỘI DUNG BÊN PHẢI */
+div header {
+  align-items: center;
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+  margin-left: 200px;
+}
+
+/* Tiêu đề chính */
+h1 {
+  color: var(--purple-dark);
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  text-align: center;
+  color: var(--orange);
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: var(--purple-light);
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 200;
+}
+
+/* Khung chứa menu */
+.menu {
+  display: flex;
+}
+
+/* Cuộn sidebar khi nhiều nút */
+.sidebar {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--orange) transparent;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: var(--orange);
+  border-radius: 6px;
+}
+.header {
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+.sidebar button {
+  margin: 8px 0;
+}
