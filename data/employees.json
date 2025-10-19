@@ -1,0 +1,50 @@
+[
+    {
+        "employee_id": 1,
+        "name": "Nguyen Van An",
+        "dateOfBirth": "1990-01-15",
+        "email": "anvannguyen@gmail.com",
+        "position": "Developer",
+        "department": "IT"
+    },
+    {
+        "employee_id": 2,
+        "name": "Tran Thi Binh",
+        "dateOfBirth": "1992-03-22",
+        "email": "b.tranthi@gmail.com",
+        "position": "HR Specialist",
+        "department": "Human Resources"
+    },
+    {
+        "employee_id": 3,
+        "name": "Le Van Canh",
+        "dateOfBirth": "1988-07-09",
+        "email": "c.levan@gmail.com",
+        "position": "Project Manager",
+        "department": "Operations"
+    },
+    {
+        "employee_id": 4,
+        "name": "Pham Thi Diu",
+        "dateOfBirth": "1995-11-30",
+        "email": "d.phamthi@gmail.com",
+        "position": "Accountant",
+        "department": "Finance"
+    },
+    {
+        "employee_id": 5,
+        "name": "Hoang Van Em",
+        "dateOfBirth": "1998-05-17",
+        "email": "e.hoangvan@gmail.com",
+        "position": "UI/UX Designer",
+        "department": "Design"
+    },
+    {
+        "employee_id": 6,
+        "name": "Nguyen Thi phuong",
+        "dateOfBirth": "1993-09-25",
+        "email": "phuong.nguyenthi@gmail.com",
+        "position": "QA Engineer",
+        "department": "Quality Assurance"
+    }
+]
